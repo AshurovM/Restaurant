@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant website</title>
+    <link rel="icon" href="img/title-img.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="page">
+    <div class="topbar">
+        <div class="container between">
+            <div class="bar-item">
+                <a href="#" class="item">
+                    <i class="fi fi-rr-phone-call"></i>+998 99 999 99 99
+                </a>
+                <a href="#" class="item">
+                    <i class="fi fi-rr-marker"></i>Sadriddin Ayniy 24</span> Street, Navaiy, Uzb
+                </a>
+            </div>
+            <div class="bar-item">
+                <a href="#" class="item email">
+                    <i class="fi fi-rr-envelope"></i>restaurant@gmail.com
+                </a>
+                <div class="item langs">
+                    <div class="lang">
+                        <img src="img/lang-1.jpg" alt="">
+                        Uzb <i class="fi fi-rr-angle-small-down"></i>
+                    </div>
+                    <div class="abs">
+                        <div class="lang">
+                            <img src="img/lang-2.jpg" alt="">Rus
+                        </div>
+                        <div class="lang">
+                            <img src="img/lang-3.png" alt="">Eng
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container between">
+            <img src="img/logo.png" alt="" class="logo">
+            <ul class="nav">
+                <i class="fi fi-rr-cross-small close"></i>
+                <li class="nav-item"><a href="#home" class="active">home</a></li>
+                <li class="nav-item"><a href="#menu">menu</a></li>
+                <li class="nav-item"><a href="#about">about</a></li>
+                <li class="nav-item"><a href="#review">review</a></li>
+                <li class="nav-item"><a href="#order">order</a></li>
+                <li class="nav-item"><a href="#contact">contact</a></li>
+            </ul>
+            <div class="icons">
+                <i class="fa-regular fa-heart small-btn"></i>
+                <div class="shop-icon">
+                    <div class="count"></div>
+                    <i class="fi fi-rr-shopping-cart small-btn shop"></i>
+                </div>
+                <i class="fi fi-rr-menu-burger bar"></i>
+            </div>
+            <div class="shopping">
+                <div class="shop-header">
+                    <h2>Basket</h2>
+                    <div class="icon">
+                        <i class="fi fi-rr-cross-small close"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">
+                    <label>
+                        <input type="checkbox">
+                        <span class="custom-checkbox"></span>
+                    Select All</label>
+                    </div>
+                    <div class="right">
+                        total: <span>$<b>0.00</b></span>
+                    </div>
+                </div>
+                <div class="cards">
+                    <!-- <div class="card">
+                        <label>
+                            <input type="checkbox">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                        <div class="main">
+                            <img src="https://podacha-blud.com/uploads/posts/2022-10/1665576921_33-podacha-blud-com-p-fud-foto-dlya-restorana-34.jpg" alt="">
+                            <div class="desc">
+                                <h4>Lorem Ipsum Dolor Sit.</h4>
+                                <div class="cost">$<b>18.00</b><span>$22.00</span></div>
+                            </div>
+                        </div>
+                        <i class="fi fi-rr-trash-xmark delete"></i>
+                    </div> -->
+                </div>
+                <a href="#" class="btn">Purchase</a>
+            </div>
+        </div>
+    </div>
+    <div id="home" class="home">
+        <div class="bg-img">
+            <div class="img">
+            <div class="overlay"></div>
+            </div>
+            <div class="tabs">
+                <div class="tab"></div>
+                <div class="tab"></div>
+                <div class="tab"></div>
+            </div>
+        </div>
+        <div class="container center">
+            <div class="content">
+                <span class="title">Welcome to our restaurant</span>
+                <h1>you have visited the world of delicious food</h1>
+                <a href="#" class="btn">learn more</a>
+                <div class="icons">
+                    <div id="prev" class="icon"><i class="fi fi-rr-angle-left"></i></div>
+                    <div id="next" class="icon"><i class="fi fi-rr-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="menu" class="menu">
+        <div class="overlay">
+            <div class="top-img"></div>
+            <div class="bottom-img"></div>
+            <div class="container">
+            <div class="heading center">
+                <h1>our menu</h1>
+                <p>Check out our restaurant story </p>
+            </div>
+            <div class="title">
+                <div class="item active">all</div>
+                <div class="item">desserts</div>
+                <div class="item">lunch</div>
+                <div class="item">salads</div>
+                <div class="item">dinner</div>
+            </div>
+            <div class="overlay-2">
+                <i class="fi fi-rr-cross-small"></i>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card salads">
+                    <div class="img">
+                        <img src="img/8.jpeg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card salads">
+                    <div class="img">
+                        <img src="img/7.jpg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card dinner">
+                    <div class="img">
+                        <img src="img/6.jpg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card dinner">
+                    <div class="img">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card lunch">
+                    <div class="img">
+                        <img src="img/5.jpeg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card lunch">
+                    <div class="img">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card desserts">
+                    <div class="img">
+                        <img src="img/4.jpg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+                <div class="card desserts">
+                    <div class="img">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span>$<b>18.00</b></span>
+                    <a href="#" class="btn">add to card <i class="fi fi-rr-shopping-cart-add"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="container">
+            <div class="content">
+                <div class="desc">
+                    <div class="heading">
+                        <h1>About us</h1>
+                        <p>Check out our restaurant story</p>
+                    </div>
+                <h2>Check out our restaurant story</h2>
+                <p class="main">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam alias fuga atque molestias ipsam voluptatibus unde ex omnis modi nisi doloribus rerum veniam impedit tempora neque, odit minus. Facere est error libero laborum fuga commodi repudiandae perspiciatis, beatae ducimus eum quasi cum vel cupiditate, reprehenderit harum dolor molestias pariatur aut?</p>
+                <div class="boxes">
+                    <div class="box">
+                        <span>15+</span>
+                        <p>years of experience</p>
+                    </div>
+                    <div class="box">
+                        <span>1000+</span>
+                        <p>happy customers</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">read more</a>
+                </div>
+                <div class="image">
+                    <div class="box">
+                        <img src="https://img.apmcdn.org/47ac291d678604db73c4987e528488625f147a06/uncropped/176a0d-splendid-table-thanksgiving-spread-c-lauripatterson-e-836012728-lede.jpg" alt="">
+                    </div>
+                    <img src="https://i.pinimg.com/originals/cf/1b/1e/cf1b1e8ae3c5d95dc0811a4f1f4d2c76.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="choose">
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <i class="fa-solid fa-truck"></i>
+                    <div class="desc">
+                        <h3>Fast delivery</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-utensils"></i>
+                    <div class="desc">
+                        <h3>Food quality</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="desc">
+                        <h3>24/7 support</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="desc">
+                        <h3>Gift cards</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="review" class="review">
+        <div class="container">
+            <div class="heading center">
+                <h1>Review</h1>
+                <p>What our customers say</p>
+            </div>
+            <div class="boxes swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <div class="title">
+                            <i class="fi fi-rr-quote-right icon"></i>
+                            <img src="https://gagaru.club/uploads/posts/2023-02/1676160818_gagaru-club-p-samaya-krasivaya-forma-litsa-u-muzhchin-ob-48.jpg" alt="">
+                            <div class="desc">
+                                <h3>John Doe</h3>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolores perferendis id incidunt accusamus commodi nesciunt alias, voluptate nemo nam accusantium exercitationem tempore aspernatur quae.</p>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="title">
+                            <i class="fi fi-rr-quote-right icon"></i>
+                            <img src="https://gagaru.club/uploads/posts/2023-02/1676160818_gagaru-club-p-samaya-krasivaya-forma-litsa-u-muzhchin-ob-48.jpg" alt="">
+                            <div class="desc">
+                                <h3>John Doe</h3>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolores perferendis id incidunt accusamus commodi nesciunt alias, voluptate nemo nam accusantium exercitationem tempore aspernatur quae.</p>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="title">
+                            <i class="fi fi-rr-quote-right icon"></i>
+                            <img src="https://gagaru.club/uploads/posts/2023-02/1676160818_gagaru-club-p-samaya-krasivaya-forma-litsa-u-muzhchin-ob-48.jpg" alt="">
+                            <div class="desc">
+                                <h3>John Doe</h3>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolores perferendis id incidunt accusamus commodi nesciunt alias, voluptate nemo nam accusantium exercitationem tempore aspernatur quae.</p>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="title">
+                            <i class="fi fi-rr-quote-right icon"></i>
+                            <img src="https://gagaru.club/uploads/posts/2023-02/1676160818_gagaru-club-p-samaya-krasivaya-forma-litsa-u-muzhchin-ob-48.jpg" alt="">
+                            <div class="desc">
+                                <h3>John Doe</h3>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolores perferendis id incidunt accusamus commodi nesciunt alias, voluptate nemo nam accusantium exercitationem tempore aspernatur quae.</p>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="title">
+                            <i class="fi fi-rr-quote-right icon"></i>
+                            <img src="https://gagaru.club/uploads/posts/2023-02/1676160818_gagaru-club-p-samaya-krasivaya-forma-litsa-u-muzhchin-ob-48.jpg" alt="">
+                            <div class="desc">
+                                <h3>John Doe</h3>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolores perferendis id incidunt accusamus commodi nesciunt alias, voluptate nemo nam accusantium exercitationem tempore aspernatur quae.</p>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="title">
+                            <i class="fi fi-rr-quote-right icon"></i>
+                            <img src="https://gagaru.club/uploads/posts/2023-02/1676160818_gagaru-club-p-samaya-krasivaya-forma-litsa-u-muzhchin-ob-48.jpg" alt="">
+                            <div class="desc">
+                                <h3>John Doe</h3>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolores perferendis id incidunt accusamus commodi nesciunt alias, voluptate nemo nam accusantium exercitationem tempore aspernatur quae.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div id="order" class="order">
+        <div class="container">
+            <div class="heading center">
+                <h1>Order now</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <form action="#">
+                    <div class="inputbox">
+                        <input type="text" placeholder="Fullname">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="inputbox">
+                        <input type="date">
+                        <input type="number" placeholder="Number">
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" value="1">
+                        <input type="text" placeholder="what">
+                    </div>
+                    <textarea cols="30" rows="10" placeholder="massage"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+                <img src="https://podacha-blud.com/uploads/posts/2022-10/1665568625_59-podacha-blud-com-p-fud-foto-i-muka-66.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="heading center">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="info">
+                <div class="box">
+                    <h3>Phone</h3>
+                    <a href="#" class="desc">
+                        <i class="fi fi-rr-phone-call"></i>
+                        <span>+998 99 999 99 99</span>
+                    </a>
+                </div>
+                <div class="box">
+                    <h3>Email</h3>
+                    <a href="#" class="desc">
+                        <i class="fi fi-rr-envelope"></i>
+                        <span class="email">reustarant@gmail.com</span>
+                    </a>
+                </div>
+                <div class="box">
+                    <h3>Address</h3>
+                    <a href="#" class="desc">
+                        <i class="fi fi-rr-marker"></i>
+                        <span>Sadriddin Ayniy 4 Street, Navaiy</span>
+                    </a>
+                </div>
+                <div class="box">
+                    <h3>Working hours</h3>
+                    <a href="#" class="desc">
+                        <i class="fi fi-rr-clock"></i>
+                        <span>Monday - Friday: 9:00 - 22:00</span>
+                    </a>
+                </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.70759746335!2d65.37028747721612!3d40.093718790940464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f51c7784ada55fd%3A0xc72c7fd7cecb4416!2sNavoiy%20innovatsiyalar%20instituti!5e1!3m2!1suz!2s!4v1685365301130!5m2!1suz!2s" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <img src="img/logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate.</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Special</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>   
+                </div>
+                <div class="item">
+                    <h3>Lorem ipsum</h3>
+                    <h4>Follow us</h4>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Follow</button>
+                    </form>
+                    <h4>Payment</h4>
+                    <div class="images">
+                        <img src="https://devsymfony.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhumo.c3d97910.png&w=1920&q=75" alt="">
+                        <img src="https://instax.uz/image/catalog/pay-logo/Payme-logo.png" alt="">
+                        <img src="https://www.luluhypermarket.com/_ui/responsive/common/images/visa.png" alt="">
+                        <img src="https://pngimg.com/uploads/paypal/paypal_PNG23.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">The restaurant website was created in 2024 &copy; by <a href="https://www.instagram.com/config_1/">config</a>. <span>a</span>ll rights reserved</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
